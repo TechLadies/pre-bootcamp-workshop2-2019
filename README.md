@@ -3,13 +3,13 @@
 ## 📋 Syllabus
 
 - History of JavaScript
-- Using JS in the browser
+- [Using JS in the browser](./part1/README.md)
 	- How to print things on screen
 	- Data types in JS
 	- How do you pass data around? (variables, cookies, GET/POST)
 	- Adding Artificial Intelligence (control structure, flow controls, if... else, switch)
 	- How to not repeat yourself (functions, classes, import)
-- Using JS in the Command Line
+- [Using JS in the Command Line](./part2/README.md)
 	- Node prompt
 	- Running a JS script in the command line
 	- Intro to NPM
