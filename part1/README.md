@@ -1,5 +1,15 @@
 # Part 1 - Using JS in the browser
 
+## Outline
+
+- [Lesson 1: How to print things on screen](#lesson-1-how-to-print-things-on-screen)
+- [Lesson 2: Data types in JS](#lesson-2-data-types-in-js)
+- [Lesson 3: How do you pass data around? (variables, cookies, GET/POST)](#lesson-3-how-do-you-pass-data-around-variables-cookies-getpost)
+- [Lesson 4: Adding Artificial Intelligence (control structure, flow controls, if... else, switch)](#lesson-4-adding-artificial-intelligence-control-structure-flow-controls-if-else-switch)
+- [Lesson 5: How to not repeat yourself (functions, classes, import)](#lesson-5-how-to-not-repeat-yourself-functions-classes-import)
+
+---
+
 ## Lesson 1: How to print things on screen
 
 There are few ways to use JavaScript in the browser:
@@ -188,6 +198,12 @@ You just used the `HTMLElement.click()` command to interact with visitors of you
 	3.146
 	```
 
+6. When you are unsure:
+
+	```javascript
+	null
+	```
+
 ---
 
 ### Exercise 2.2
@@ -196,44 +212,42 @@ You just used the `HTMLElement.click()` command to interact with visitors of you
 
 **Objective:**
 
-- Learn about another commonly used data types in JavaScript: boolean, integer, float (floating-point number, aka double) string. These are also known as *primitives*.
+- Learn about another commonly used data structure known as Objects
+- Learn how to store things in an object
 
 **Steps:**
 
-1. Type the following thing into console:
+1. Type the following into console:
 
 	```javascript
-	true
+	{}
 	```
 
-	This is a boolean. There can be only 2 possible values: `true` or `false`
+	> Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.
+	
+
+2. Add some data into an object
 
 	```javascript
-	false
+	{
+		name: 'Elisha Tan',
+		email: 'elisha@example.com'
+	}
 	```
 
-2. Here's an integer (whole number):
+3. You can then refer to the thing inside:
 
 	```javascript
-	9999
+	var user = {
+		name: 'Elisha Tan',
+		email: 'elisha@example.com'
+	}
 	```
-
-3. You can see the type of data by typing:
-
+	
+	And then:
+	
 	```javascript
-	typeof 9999
-	```
-
-4. Here's a string:
-
-	```javascript
-	"Hello world"
-	```
-
-5. Here's a floating number:
-
-	```javascript
-	3.146
+	user.name
 	```
 
 ---
