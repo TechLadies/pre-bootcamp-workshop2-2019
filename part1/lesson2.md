@@ -1,8 +1,8 @@
 # Lesson 2 - Data types in JS
 
-> __Note:__ The following exercises will be done in the Chrome browser's JavaScript Console.
-> 
-> From the menu bar: `View` > `Developer`> `JavaScript Console`
+The following exercises will be done in the Chrome browser's JavaScript Console.
+
+From the menu bar: `View` > `Developer`> `JavaScript Console`
 
 ---
 
@@ -27,12 +27,18 @@
 	```javascript
 	false
 	```
+	
+	You can read up more about [Booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean).
 
-2. Here's an integer (whole number):
+2. Here's an integer (numbers):
 
 	```javascript
 	9999
 	```
+
+	The largest number value is approximately `1.79E+308`, or <code>2<sup>1024</sup></code>. 
+
+	For bigger numbers, we use [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
 
 3. You can see the type of data by typing:
 
@@ -46,6 +52,18 @@
 	"Hello world"
 	```
 
+	You can manipulate strings:
+
+	```javascript
+	"tech ladies".toUpperCase()
+	
+	"la la. ".repeat(10)
+	
+	'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?'.replace('dog', 'monkey')
+	```
+	
+	You can read up more about [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+
 5. Here's a floating number:
 
 	```javascript
@@ -57,6 +75,12 @@
 	```javascript
 	null
 	```
+
+In any programming language, we will have to deal with writing and manipulating these data types.
+
+**Further Reading**
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures>
 
 ---
 
