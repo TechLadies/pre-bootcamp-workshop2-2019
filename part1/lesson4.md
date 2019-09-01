@@ -30,31 +30,31 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
       </head>
       <body>
         <h1>My To-Do List</h1>
-    
+
         <ul id="myList"></ul>
-    
+
         <script>
           // Some comments here
-    
+
           /*
           Some multi-line comments here
           Handy for making some interesting comments
           */
-    
+
           // Initializing the To Do List array
           let myToDo = []
-    
+
           // Adding some to-do list items
           myToDo.push({ name: 'Get oolong tea from NTUC', done: false, type: 'shopping' })
           myToDo.push({ name: 'Buy more cat feed', done: false, type: 'shopping' })
           myToDo.push({ name: 'Pet the cat before leaving the house today', done: true, type: 'pet' })
           myToDo.push({ name: 'Attend TechLadies Pre-Bootcamp Workshop 2', done: true, type: 'event' })
-    
+
           const myListElement = document.getElementById('myList')
-    
+
           for(let i=0; i < myToDo.length; i++) {
             const currentItem = myToDo[i]
-    
+
             let emoji
             switch (currentItem.type) {
               case 'shopping':
@@ -70,14 +70,14 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
                 emoji = '📝'
                 break
             }
-    
+
             const newListElement = document.createElement("li")
             if (currentItem.done) {
               newListElement.className = 'done'
             }
-    
+
             newListElement.innerText = emoji + ' ' + currentItem.name
-    
+
             myListElement.appendChild(newListElement)
           }
         </script>
@@ -88,7 +88,7 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
 3. Now open the page in your browser.
 
     It should look something like this:
-    
+
     ![To Do List](./lesson4-to-do-list.png)
 
 ### Explanation
@@ -120,4 +120,4 @@ Together, these are the basic building blocks used in creating a JavaScript fron
 
 ---
 
-[Next: Lesson 5 - How to not repeat yourself ≫](lesson2.md)
+[Next: Lesson 5 - How to not repeat yourself ≫](lesson5.md)
