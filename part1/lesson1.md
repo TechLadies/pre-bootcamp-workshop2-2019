@@ -144,6 +144,7 @@ And then we point to its `style` DOM object and change the `color` attribute to 
 **Further reading**
 
 - <https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click>
+- <https://developer.mozilla.org/en-US/docs/Glossary/DOM>
 
 ---
 
