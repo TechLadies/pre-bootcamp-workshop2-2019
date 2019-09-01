@@ -35,10 +35,6 @@
 
       for(let i=0; i < myToDo.length; i++) {
         const currentItem = myToDo[i]
-        const newListElement = document.createElement("li")
-        if (currentItem.done) {
-          newListElement.className = 'done'
-        }
 
         let emoji
         switch (currentItem.type) {
@@ -56,11 +52,17 @@
             break
         }
 
+        const newListElement = document.createElement("li")
+        if (currentItem.done) {
+          newListElement.className = 'done'
+        } else {
+          newListElement.className = ''
+        }
+
         newListElement.innerText = emoji + '' + currentItem.name
 
         myListElement.appendChild(newListElement)
       }
-
     </script>
   </body>
 </html>

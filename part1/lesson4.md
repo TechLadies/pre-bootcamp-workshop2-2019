@@ -54,10 +54,6 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
     
           for(let i=0; i < myToDo.length; i++) {
             const currentItem = myToDo[i]
-            const newListElement = document.createElement("li")
-            if (currentItem.done) {
-              newListElement.className = 'done'
-            }
     
             let emoji
             switch (currentItem.type) {
@@ -75,11 +71,15 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
                 break
             }
     
+            const newListElement = document.createElement("li")
+            if (currentItem.done) {
+              newListElement.className = 'done'
+            }
+    
             newListElement.innerText = emoji + '' + currentItem.name
     
             myListElement.appendChild(newListElement)
           }
-    
         </script>
       </body>
     </html>
@@ -89,7 +89,28 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
 
 Let's explore the different parts:
 
-- 
+- Line 36: We initialized the `myToDo` variable as an empty Array.
+- Line 29-32: We added a bunch of To Do List items into the `myToDo` Array
+- Line 34: We added a reference to the `myList` unordered list HTML DOM element
+- Line 36: We created a `for` loop to go through every item inside the `myToDo` Array
+- Line 37-62: Create and populate the To Do List items into the unordered list `myList`
+
+Let's look at the new JavaScript concepts introduced here:
+
+1. if... else... statement
+2. For loop statement
+3. Switch case statement
+
+These same things exists in all programming languages.
+
+Additionally, we used some new HTML DOM manipulation methods:
+
+- `document.createElement("li")`
+- `newListElement.className = 'done'`
+- `newListElement.innerText = emoji + '' + currentItem.name`
+- `myListElement.appendChild(newListElement)`
+
+Together, these are the basic building blocks used in creating a JavaScript front-end web app.
 
 ---
 
