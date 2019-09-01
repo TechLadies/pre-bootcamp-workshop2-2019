@@ -1,4 +1,6 @@
-# Lesson 5 - How to not repeat yourself (functions, classes, import)
+# Lesson 5 - How to not repeat yourself (functions, linking JS files)
+
+## Exercise 5.1
 
 ---
 
