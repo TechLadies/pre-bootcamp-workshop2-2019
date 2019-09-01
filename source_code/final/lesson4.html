@@ -26,9 +26,10 @@
       let myToDo = []
 
       // Adding some to-do list items
-      myToDo.push({ name: 'Get oolong tea from NTUC', done: false })
-      myToDo.push({ name: 'Buy more cat feed', done: false })
-      myToDo.push({ name: 'Attend TechLadies Pre-Bootcamp Workshop 2', done: true })
+      myToDo.push({ name: 'Get oolong tea from NTUC', done: false, type: 'shopping' })
+      myToDo.push({ name: 'Buy more cat feed', done: false, type: 'shopping' })
+      myToDo.push({ name: 'Pet the cat before leaving the house today', done: true, type: 'pet' })
+      myToDo.push({ name: 'Attend TechLadies Pre-Bootcamp Workshop 2', done: true, type: 'event' })
 
       const myListElement = document.getElementById('myList')
 
@@ -39,7 +40,25 @@
           newListElement.className = 'done'
         }
 
-        myListElement.appendChild()
+        let emoji
+        switch (currentItem.type) {
+          case 'shopping':
+            emoji = '🛍'
+            break
+          case 'event':
+            emoji = '🗓'
+            break
+          case 'pet':
+            emoji = '🐱'
+            break
+          default:
+            emoji = '📝'
+            break
+        }
+
+        newListElement.innerText = `${emoji} ${currentItem.name}`
+
+        myListElement.appendChild(newListElement)
       }
 
     </script>
