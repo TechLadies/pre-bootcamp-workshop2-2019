@@ -115,21 +115,31 @@
       document.getElementById('todoCategoryField').value = 'others'
     }
     
+    function addNewTodo(todoTextStr, categoryStr) {
+      if (todoTextStr.length == 0) { return false }
+    
+      if (todoTextStr.length > 0) {
+        let newToDo = { name: todoTextStr, done: false, type: categoryStr }
+        myToDo.push(newToDo)
+      }
+    
+      return true
+    }
+    
     document.addEventListener("DOMContentLoaded", function(event) {
       displayToDos()
     
       const todoForm = document.getElementById("todoForm")
       todoForm.addEventListener('submit', function (event) {
         event.preventDefault()
-        let todoText = document.getElementById('todoTextField')
-        let todoCategory = document.getElementById('todoCategoryField')
     
-        if (todoText.value.length > 0) {
-          let newToDo = { name: todoText.value, done: false, type: todoCategory.value }
-          myToDo.push(newToDo)
+        let todoText = document.getElementById('todoTextField').value
+        let todoCategory = document.getElementById('todoCategoryField').value
+    
+        if (addNewTodo(todoText, todoCategory)) {
+          displayToDos()
         }
     
-        displayToDos()
         resetForm()
       })
     })
