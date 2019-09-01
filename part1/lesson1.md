@@ -106,6 +106,7 @@ You just used the `Window.prompt()` command to interact with visitors of your si
 **Objective:**
 
 - Write some HTML button that triggers a JavaScript code
+- Learn about the HTML Document Object Model (DOM) and how to make changes it
 
 **Steps:**
 
@@ -113,7 +114,9 @@ You just used the `Window.prompt()` command to interact with visitors of your si
 2. In your **index.html** file, let's add this code in the `<body>` tag:
 
 	```html
-	<button onclick="alert('Ouch!')">
+	<h1 id="headLine">This is a headline</h1>
+	
+	<button onclick="document.getElementById('headLine').style.color = 'red'">
 		Click Me!
 	</button>
 	```
@@ -123,8 +126,18 @@ You just used the `Window.prompt()` command to interact with visitors of your si
 3. Save the file
 4. Go back to the Chrome browser and reload the page
 5. You should see a new button on screen. Try clicking it.
-	
-You just used the `HTMLElement.click()` command to interact with visitors of your site.
+
+**Explanation**
+
+You just used the `HTMLElement.click()` command to interact with visitors of your site. You have also managed to change the color of the text by changing its style programmatically by manipulating the DOM.
+
+This is the way that we reference the `<h1 id="headline">...` tag
+
+```javascript
+document.getElementById('headLine')
+```
+
+And then we point to its `style` DOM object and change the `color` attribute to `'red'`. If you recall the last lesson, `'red'` is a valid "[CSS Named Color](https://www.quackit.com/css/color/values/css_named_colors.cfm)".
 
 **Further reading**
 

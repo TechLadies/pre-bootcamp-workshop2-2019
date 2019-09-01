@@ -104,6 +104,10 @@
 	user.name
 	```
 
+**Further Reading**
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>
+
 ---
 
 ## Exercise 2.3
@@ -133,6 +137,13 @@
 	```javascript
 	[1, 2, 3, 4].push(5)
 	```
+
+	It will print a new array with 5 items inside.
+
+**Further Reading**
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>
+
 ---
 
 [Next: Lesson 3 - How do you pass data around? ≫](lesson3.md)
