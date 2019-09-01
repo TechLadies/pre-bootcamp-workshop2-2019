@@ -3,8 +3,10 @@
 There are few ways to use JavaScript in the browser:
 
 - Write in the HTML file as a `<script>` tag.
-- Write a separate JavaScript file and load it in your HTML page.
+- Write a separate JavaScript file and link it in your HTML page.
 - Developer Console in Chrome.
+
+In this lesson, we'll be writing JavaScript in the HTML file using the `<scrip>` tag.
 
 ---
 
