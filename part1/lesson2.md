@@ -126,6 +126,8 @@ In any programming language, we will have to deal with writing and manipulating 
 	
 	```javascript
 	user.name
+
+	user['name']
 	```
 
 **Further Reading**

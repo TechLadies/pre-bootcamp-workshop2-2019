@@ -75,7 +75,7 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
 							break
 					}
 
-					newListElement.innerText = `${emoji} ${currentItem.name}`
+					newListElement.innerText = emoji + ' ' + currentItem.name
 
 					myListElement.appendChild(newListElement)
 				}
