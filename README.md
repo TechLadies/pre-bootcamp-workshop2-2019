@@ -1,15 +1,27 @@
 # Pre-Bootcamp Workshop 2 (2019) - JavaScript & NodeJS
 
+## Agenda
+
+| Time | Agenda |
+| ---- | ------ |
+| 1pm - 1:30pm | History of JavaScript |
+| 1:30pm - 2:30pm | Part 1 - Lessons 1 - 3 |
+| 2:30pm - 3pm | **Break + Snacks** |
+| 3pm - 4:30pm | Part 1 - Lesson 4 & 5 |
+| 4:30pm - 4:45pm | **Break** |
+| 4:45pm - 6pm | Part 2 |
+
+
 ## 📋 Syllabus
 
 - History of JavaScript
-- [Using JS in the browser](./part1/README.md)
+- [Part 1 - Using JS in the browser](./part1/README.md)
 	- How to print things on screen
 	- Data types in JS
-	- How do you pass data around? (variables, cookies, GET/POST)
+	- How do you pass data around? (variables)
 	- Adding Artificial Intelligence (control structure, flow controls, if... else, switch)
-	- How to not repeat yourself (functions, classes, import)
-- [Using JS in the Command Line](./part2/README.md)
+	- How to not repeat yourself (functions, linking JS files)
+- [Part 2 - Using JS in the Command Line](./part2/README.md)
 	- Node prompt
 	- Running a JS script in the command line
 	- Intro to NPM
