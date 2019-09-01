@@ -87,6 +87,12 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
 
 3. Now open the page in your browser.
 
+    It should look something like this:
+    
+    ![To Do List](./lesson4-to-do-list.png)
+
+### Explanation
+
 Let's explore the different parts:
 
 - Line 36: We initialized the `myToDo` variable as an empty Array.
