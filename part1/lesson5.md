@@ -144,6 +144,10 @@
       })
     })
     ```
+5. Open `lesson5.html` in your Chrome browser
+6. Try to add new To Do List items.
+
+    ![Interactive To Do List](./lesson5-to-do-list.png)
 
 ---
 
