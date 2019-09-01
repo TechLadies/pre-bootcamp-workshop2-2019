@@ -76,7 +76,7 @@ In this lesson, we will be switching back to using Visual Studio Code and editin
               newListElement.className = 'done'
             }
     
-            newListElement.innerText = emoji + '' + currentItem.name
+            newListElement.innerText = emoji + ' ' + currentItem.name
     
             myListElement.appendChild(newListElement)
           }
