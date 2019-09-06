@@ -68,6 +68,42 @@ You can serve HTML and JS files with ExpressJS. You can also build dynamic web s
 
 - <https://expressjs.com/en/starter/installing.html>
 
+## Exercise 4.2
+
+**Scenario:** Here's an easier way to bootstrap an ExpressJS app
+
+**Objective:**
+
+- Create a web server using Express's Generator
+
+**Steps:**
+
+1. Using Terminal or Command Prompt, create a new folder: `myapp2`
+
+    ```bash
+    mkdir myapp2
+    cd myapp2
+    ```
+
+2. Type this commands:
+
+    ```bash
+    npx express-generator
+    npm install
+    ```
+
+3. You can start the app like this:
+
+    ```bash
+    DEBUG=myapp2:* npm start
+    ```
+
+4. Visit the site in your browser: <http://localhost:3000>
+
+**Further Reading**
+
+- <https://expressjs.com/en/starter/generator.html>
+
 ---
 
-[Next: Lesson 5 - Run express generator ≫](lesson5.md)
+[Next: Lesson 5 - Build a simple web app ≫](lesson5.md)

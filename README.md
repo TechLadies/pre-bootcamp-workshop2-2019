@@ -26,7 +26,6 @@
 	- Running a JS script in the command line
 	- Intro to NPM
 	- Intro to Express JS
-	- Run express generator
 	- Build a simple web app
 
 ## 💾 Pre-Requisite Software
