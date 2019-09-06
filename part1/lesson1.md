@@ -6,7 +6,7 @@ There are few ways to use JavaScript in the browser:
 - Write a separate JavaScript file and link it in your HTML page.
 - Developer Console in Chrome.
 
-In this lesson, we'll be writing JavaScript in the HTML file using the `<scrip>` tag.
+In this lesson, we'll be writing JavaScript in the HTML file using the `<script>` tag.
 
 ---
 
@@ -93,7 +93,7 @@ document.write('Hello, World')
 	Hello, Michael
 	```
 	
-You just used the `Window.prompt()` command to interact with visitors of your site.
+You just used the `window.prompt()` command to interact with visitors of your site.
 
 **Further reading**
 
@@ -108,7 +108,7 @@ You just used the `Window.prompt()` command to interact with visitors of your si
 **Objective:**
 
 - Write some HTML button that triggers a JavaScript code
-- Learn about the HTML Document Object Model (DOM) and how to make changes it
+- Learn about the HTML Document Object Model (DOM) and how to make changes to it
 
 **Steps:**
 
@@ -133,7 +133,7 @@ You just used the `Window.prompt()` command to interact with visitors of your si
 
 You just used the `HTMLElement.click()` command to interact with visitors of your site. You have also managed to change the color of the text by changing its style programmatically by manipulating the DOM.
 
-This is the way that we reference the `<h1 id="headline">...` tag
+This is the way that we reference the `<h1 id="headLine">...` tag
 
 ```javascript
 document.getElementById('headLine')
