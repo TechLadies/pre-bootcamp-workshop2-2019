@@ -169,6 +169,8 @@
 
     Notice that the function in **Line 63** does not have a name - this is called an "anonymous function" (a function with no name).
 
+---
+
 ## Exercise 5.2
 
 **Scenario:** Let's mark the To Do as done

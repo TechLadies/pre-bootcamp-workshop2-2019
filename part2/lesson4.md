@@ -68,6 +68,8 @@ You can serve HTML and JS files with ExpressJS. You can also build dynamic web s
 
 - <https://expressjs.com/en/starter/installing.html>
 
+---
+
 ## Exercise 4.2
 
 **Scenario:** Here's an easier way to bootstrap an ExpressJS app
