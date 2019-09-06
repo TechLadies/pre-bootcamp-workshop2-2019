@@ -45,3 +45,12 @@ Here is a list of sofware that you will need to install to participate in the Pr
 3. **Chrome Browser**
 	- *The recommended web browser for viewing websites and for testing your JavaScript applications in the web browser.*
 	- Download the latest version from the Chrome website: <https://www.google.com/chrome/>
+
+4. **Postman App**
+	- *This is for helping you when testing API services.*
+	- <https://www.getpostman.com/downloads/>
+
+5. **Git**
+	- *This can use this software to maintain different versions of your source code.*
+	- You can download Git from their website: <https://git-scm.com/>
+	- If you are using MacOS, you should already have this installed.
