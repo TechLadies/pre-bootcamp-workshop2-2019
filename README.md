@@ -4,12 +4,13 @@
 
 | Time | Agenda |
 | ---- | ------ |
-| 1pm - 1:30pm | History of JavaScript |
+| 1:00pm - 1:30pm | History of JavaScript |
 | 1:30pm - 2:30pm | Part 1 - Lessons 1 - 3 |
-| 2:30pm - 3pm | **Break + Snacks** |
-| 3pm - 4:30pm | Part 1 - Lesson 4 & 5 |
+| 2:30pm - 3:00pm | **Break + Snacks** |
+| 3:00pm - 4:00pm | Part 1 - Lesson 4 & 5 |
+| 4:00pm - 4:30pm | Part 2 - Lesson 1 - 3 |
 | 4:30pm - 4:45pm | **Break** |
-| 4:45pm - 6pm | Part 2 |
+| 4:45pm - 6:00pm | Part 2 - Lesson 4 & 5 |
 
 
 ## 📋 Syllabus
