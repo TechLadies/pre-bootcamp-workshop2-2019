@@ -14,9 +14,8 @@
 
 ## 🎥 Slides
 
-<https://docs.google.com/presentation/d/1d_ZFHWGVoMvRIsnrA2sjP8W3OBoYSgyTlSkARztoprg/edit?usp=sharing>
-
-(Or the shortened link: <http://bit.ly/tl-ws2-2019>)
+- <https://docs.google.com/presentation/d/1d_ZFHWGVoMvRIsnrA2sjP8W3OBoYSgyTlSkARztoprg/edit?usp=sharing>
+- (Or the shortened link: <http://bit.ly/tl-ws2-2019>)
 
 ## 📋 Syllabus
 
@@ -60,3 +59,8 @@ Here is a list of sofware that you will need to install to participate in the Pr
 	- *This can use this software to maintain different versions of your source code.*
 	- You can download Git from their website: <https://git-scm.com/>
 	- If you are using MacOS, you should already have this installed.
+
+## About the TechLadies Bootcamp 5
+
+- <https://github.com/techladies/bootcamp5-info>
+- <http://www.techladies.co/techladies-bootcamp-5>
