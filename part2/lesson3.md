@@ -1,6 +1,6 @@
 # Lesson 3 - Intro to NPM
 
-Node Package Manager (NPM) is used to manage the 3rd party code libraries that your app uses. These are also called code dependencies.
+[Node Package Manager (NPM)](https://www.npmjs.com/package/npm) is used to manage the 3rd party code libraries that your app uses. These are also called code dependencies.
 
 ## Exercise 3.1
 
@@ -59,13 +59,13 @@ Node Package Manager (NPM) is used to manage the 3rd party code libraries that y
     Is this OK? (yes) y
     ```
 
-2. Add a depdency
+2. Add a NPM package depdency:
 
     ```bash
     npm install --save nyan
     ```
 
-3. Write a new file `index.js`:
+3. Write a new file `index.js` (Hint: Use Visual Studio Code):
 
     ```javascript
     const nyan = require('nyan')()
@@ -78,7 +78,9 @@ Node Package Manager (NPM) is used to manage the 3rd party code libraries that y
     nyan(opts)
     ```
 
-4. Modify your `package.json`:
+4. Modify your `package.json` (Hint: Also with Visual Studio Code):
+
+    Add this 1 line to the to the "scripts" section.
 
     ```javascript
     {
@@ -90,8 +92,6 @@ Node Package Manager (NPM) is used to manage the 3rd party code libraries that y
     }
     ```
     
-    Add the "start" key to the "scripts" section.
-    
 5. ANd now you can run the code:
 
     ```bash
@@ -102,6 +102,11 @@ Node Package Manager (NPM) is used to manage the 3rd party code libraries that y
 
 7. Press `Ctrl` + `c` to get out of the animated Nyan Cat screen.
 
+
+**Further Readings**
+
+- <https://docs.npmjs.com/creating-a-package-json-file>
+- <https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file>
 
 ---
 

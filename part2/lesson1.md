@@ -1,5 +1,7 @@
 # Lesson 1 - Node prompt
 
+You can run random JavaScript code with NodeJS just like in the Chrome Developer JavaScript Console.
+
 ## Exercise 1.1
 
 1. Open your Terminal (or Command Prompt in Windows)
@@ -24,6 +26,10 @@
     ```
 
 4. You will not go into an interactive Node prompt and you can try to type the stuff from the exercises in [Part 1: Lesson 2](../part1/lesson2.md) here.
+
+**Further Reading**
+
+- Node REPL (read-eval-print loop) (<https://www.oreilly.com/library/view/learning-node-2nd/9781491943113/ch04.html>)
 
 ---
 

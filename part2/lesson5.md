@@ -1,5 +1,7 @@
 # Lesson 5 - Build a simple web app
 
+Here's some typical ways of building a simple web app with NodeJS and ExpressJS.
+
 ## Exercise 5.1
 
 **Scenario:** Host static files
@@ -26,7 +28,7 @@ You have now hosted your "To Do List" app in the Express app.
 **Objective:**
 
 - Build a simple API server for To Do List
-- Learn to use Postman
+- Learn to use [Postman App](https://www.getpostman.com/)
 
 **Steps:**
 
@@ -101,7 +103,11 @@ You have now hosted your "To Do List" app in the Express app.
 
 5. Start [Postman App](https://www.getpostman.com/).
 6. Click on "import". Click on "Choose file". Select `To Do List (localhost).postman_collection.json` and click on "Open"
-7. A new Collection should appear. Try to use some of the API calls.
+7. A new Collection should appear on the left panel. Try to use some of the API calls.
 8. Try to add new To Dos and update them.
+
+**Explanation**
+
+So you have just created a new REST API for managing To Do Lists on the server side. You can then explore integrating the To Do List front-end app with this backend service.
 
 ---

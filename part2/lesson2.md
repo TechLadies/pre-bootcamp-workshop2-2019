@@ -20,8 +20,8 @@
     });
     ```
     
-3. Save the file
-4. Open up your Terminal (or Command Prompt in Windows)
+3. Save the file.
+4. Open up your Terminal (or Command Prompt in Windows).
 5. Change directory to the folder where you kept the file.
 6. Type:
 
@@ -30,6 +30,10 @@
     ```
 
 7. See what happens.
+
+**Further Reading**
+
+- <https://nodejs.org/dist/latest-v10.x/docs/api/cli.html>
 
 ---
 
