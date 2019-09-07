@@ -12,6 +12,11 @@
 | 4:30pm - 4:45pm | **Break** |
 | 4:45pm - 6:00pm | Part 2 - Lesson 4 & 5 |
 
+## 🎥 Slides
+
+<https://docs.google.com/presentation/d/1d_ZFHWGVoMvRIsnrA2sjP8W3OBoYSgyTlSkARztoprg/edit?usp=sharing>
+
+(Or the shortened link: <http://bit.ly/tl-ws2-2019>)
 
 ## 📋 Syllabus
 
